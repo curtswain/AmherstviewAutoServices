@@ -1,0 +1,33 @@
+<svg width="450" height="80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .logo-text {
+        font-family: 'Impact', 'Arial Black', sans-serif;
+        font-weight: 900;
+        font-style: italic;
+        letter-spacing: -1px;
+      }
+      .subtitle {
+        font-family: Arial, sans-serif;
+        font-weight: 700;
+        letter-spacing: 2px;
+      }
+    </style>
+    <linearGradient id="redGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#C62828;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B71C1C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B0000;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- White outer outline - thicker -->
+  <text x="10" y="48" class="logo-text" font-size="54" fill="none" stroke="#E0E0E0" stroke-width="7" stroke-linejoin="round" paint-order="stroke">AMHERSTVIEW</text>
+  <!-- Black inner outline -->
+  <text x="10" y="48" class="logo-text" font-size="54" fill="none" stroke="#1A1A1A" stroke-width="2.5" stroke-linejoin="round" paint-order="stroke">AMHERSTVIEW</text>
+  <!-- Red fill -->
+  <text x="10" y="48" class="logo-text" font-size="54" fill="url(#redGradient)">AMHERSTVIEW</text>
+
+  <!-- AUTO SERVICE with black outline -->
+  <text x="85" y="72" class="subtitle" font-size="18" fill="none" stroke="#000000" stroke-width="3" stroke-linejoin="round" paint-order="stroke">AUTO SERVICE</text>
+  <text x="85" y="72" class="subtitle" font-size="18" fill="#FFFFFF">AUTO SERVICE</text>
+</svg>
