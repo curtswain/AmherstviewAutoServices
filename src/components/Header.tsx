@@ -32,11 +32,14 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
             onClick={() => handleNavigate('home')}
             className="flex items-center hover:opacity-90 transition-opacity"
           >
-            <img
-              src="/Screenshot 2025-10-22 140738.png"
-              alt="Amherstview Auto Service"
-              className="h-14 w-auto"
-            />
+            <div className="flex flex-col">
+              <span className="text-2xl font-bold tracking-wider text-[#DC143C]" style={{ fontFamily: 'Arial Black, sans-serif', textShadow: '2px 2px 0 #666, 3px 3px 0 #444' }}>
+                AMHERSTVIEW
+              </span>
+              <span className="text-xs tracking-[0.3em] text-gray-400 font-semibold ml-1">
+                AUTO SERVICE
+              </span>
+            </div>
           </button>
 
           <nav className="hidden md:flex items-center space-x-8">
