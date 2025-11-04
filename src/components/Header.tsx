@@ -33,9 +33,9 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
             className="flex items-center hover:opacity-90 transition-opacity"
           >
             <img
-              src="/amherstview_logo_fixed.png"
+              src="/Screenshot 2025-10-22 140738.png"
               alt="Amherstview Auto Service"
-              className="h-16 w-auto"
+              className="h-14 w-auto"
             />
           </button>
 
