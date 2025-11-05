@@ -150,59 +150,47 @@ export default function ServicesPage() {
       <section className="py-12 bg-white border-y border-gray-200">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-8">Our Partners & Affiliates</h2>
-          <div className="flex justify-center items-center gap-8 max-w-4xl mx-auto flex-wrap">
-            <a
-              href="https://www.moogparts.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:opacity-80 transition-opacity"
-            >
-              <img
-                src="/Screenshot 2025-10-22 160113.png"
+          <div className="flex justify-center items-center max-w-4xl mx-auto">
+            <map name="partners-map">
+              <area
+                shape="rect"
+                coords="0,0,147,100"
+                href="https://www.moogparts.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 alt="MOOG"
-                className="h-16 w-auto object-contain"
-                style={{ clipPath: 'inset(0 75% 0 0)' }}
               />
-            </a>
-            <a
-              href="https://www.monroe.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:opacity-80 transition-opacity"
-            >
-              <img
-                src="/Screenshot 2025-10-22 160113.png"
+              <area
+                shape="rect"
+                coords="147,0,302,100"
+                href="https://www.monroe.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 alt="Monroe"
-                className="h-16 w-auto object-contain"
-                style={{ clipPath: 'inset(0 50% 0 25%)' }}
               />
-            </a>
-            <a
-              href="https://www.walkerexhaust.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:opacity-80 transition-opacity"
-            >
-              <img
-                src="/Screenshot 2025-10-22 160113.png"
+              <area
+                shape="rect"
+                coords="302,0,462,100"
+                href="https://www.walkerexhaust.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 alt="Walker"
-                className="h-16 w-auto object-contain"
-                style={{ clipPath: 'inset(0 25% 0 50%)' }}
               />
-            </a>
-            <a
-              href="https://acdelcocanada.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:opacity-80 transition-opacity"
-            >
-              <img
-                src="/Screenshot 2025-10-22 160113.png"
+              <area
+                shape="rect"
+                coords="462,0,616,100"
+                href="https://acdelcocanada.com/"
+                target="_blank"
+                rel="noopener noreferrer"
                 alt="ACDelco"
-                className="h-16 w-auto object-contain"
-                style={{ clipPath: 'inset(0 0 0 75%)' }}
               />
-            </a>
+            </map>
+            <img
+              src="/Screenshot 2025-10-22 160113.png"
+              alt="Our Partners & Affiliates - MOOG, Monroe, Walker, ACDelco"
+              className="w-full max-w-2xl h-auto cursor-pointer"
+              useMap="#partners-map"
+            />
           </div>
         </div>
       </section>
