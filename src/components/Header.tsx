@@ -36,7 +36,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
               src="/amherstview_logo_fixed copy.png"
               alt="Amherstview Auto Service"
               className="h-16 w-auto"
-              style={{ transform: 'rotate(1deg)' }}
+              style={{ transform: 'rotate(-0.5deg)' }}
             />
           </button>
 
