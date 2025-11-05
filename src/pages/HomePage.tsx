@@ -17,11 +17,11 @@ export default function HomePage({ onNavigate }: HomePageProps) {
           }}
         />
         <div className="relative z-10 text-center px-4 max-w-4xl">
-          <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
             Full-Service Auto Repair<br />
             <span className="text-[#DC143C]">All Makes & Models</span>
           </h1>
-          <p className="text-sm sm:text-base md:text-xl mb-8 text-gray-200">
+          <p className="text-base sm:text-lg md:text-xl mb-8 text-gray-200">
             Trusted Automotive Service In Amherstview, & Surrounding Areas Since 1983
           </p>
           <button
