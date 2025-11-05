@@ -29,7 +29,7 @@ export default function AboutPage() {
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/Screenshot 2025-10-22 153256.png"
+                src="/Screenshot 2025-10-22 153256 copy.png"
                 alt="Amherstview Auto repair shop"
                 className="w-full h-full object-cover"
               />
