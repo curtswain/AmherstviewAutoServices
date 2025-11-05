@@ -154,7 +154,7 @@ export default function ServicesPage() {
             <map name="partners-map">
               <area
                 shape="rect"
-                coords="0,0,147,100"
+                coords="0,0,154,66"
                 href="https://www.moogparts.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -162,7 +162,7 @@ export default function ServicesPage() {
               />
               <area
                 shape="rect"
-                coords="147,0,302,100"
+                coords="154,0,308,66"
                 href="https://www.monroe.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -170,7 +170,7 @@ export default function ServicesPage() {
               />
               <area
                 shape="rect"
-                coords="302,0,462,100"
+                coords="308,0,462,66"
                 href="https://www.walkerexhaust.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -178,7 +178,7 @@ export default function ServicesPage() {
               />
               <area
                 shape="rect"
-                coords="462,0,616,100"
+                coords="462,0,616,66"
                 href="https://acdelcocanada.com/"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -186,9 +186,9 @@ export default function ServicesPage() {
               />
             </map>
             <img
-              src="/Screenshot 2025-10-22 160113.png"
+              src="/Screenshot 2025-10-22 160113 copy.png"
               alt="Our Partners & Affiliates - MOOG, Monroe, Walker, ACDelco"
-              className="w-full max-w-2xl h-auto cursor-pointer"
+              className="h-32 w-auto object-contain cursor-pointer"
               useMap="#partners-map"
             />
           </div>
