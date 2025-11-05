@@ -186,9 +186,9 @@ export default function ServicesPage() {
               />
             </map>
             <img
-              src="/Screenshot 2025-10-22 160113.png"
+              src="/Screenshot 2025-10-22 160113 copy copy.png"
               alt="Our Partners & Affiliates - MOOG, Monroe, Walker, ACDelco"
-              className="h-32 w-auto object-contain cursor-pointer"
+              className="w-full max-w-2xl h-auto object-contain cursor-pointer"
               useMap="#partners-map"
             />
           </div>
