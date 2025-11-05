@@ -155,7 +155,7 @@ export default function ServicesPage() {
               <area
                 shape="rect"
                 coords="0,0,154,66"
-                href="https://www.moogparts.com"
+                href="https://www.moogparts.com/en-ca/"
                 target="_blank"
                 rel="noopener noreferrer"
                 alt="MOOG"
@@ -171,7 +171,7 @@ export default function ServicesPage() {
               <area
                 shape="rect"
                 coords="308,0,462,66"
-                href="https://www.walkerexhaust.com"
+                href="https://www.walkerexhaust.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 alt="Walker"
