@@ -62,10 +62,10 @@ This email was sent from the Amherstview Auto contact form.
         Authorization: `Bearer ${Deno.env.get("RESEND_API_KEY")}`,
       },
       body: JSON.stringify({
-        from: "Amherstview Auto <contact@amherstviewauto.ca>",
+        from: "Amherstview Auto <onboarding@resend.dev>",
         to: ["contact@amherstviewauto.ca"],
         reply_to: email,
-        subject: "New Contact Form Submission",
+        subject: `Contact Form: ${name}`,
         text: emailBody,
       }),
     });
