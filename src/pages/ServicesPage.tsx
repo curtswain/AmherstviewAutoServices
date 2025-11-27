@@ -5,7 +5,7 @@ export default function ServicesPage() {
     {
       icon: Droplet,
       title: 'Oil Change & Maintenance',
-      description: 'Regular oil changes and preventative maintenance to keep your vehicle running smoothly. We use quality oils and filters, check all fluid levels, and perform multi-point inspections.',
+      description: 'Regular oil changes and preventative maintenance to keep your vehicle running smoothly. We use quality lubricants and filters, check all fluid levels, and perform multi-point inspections.',
       details: [
         'Full synthetic & conventional oil changes',
         'Oil filter replacement',
