@@ -24,7 +24,7 @@ export default function AboutPage() {
                 Over the decades, Amherstview Auto Service has built lasting relationships with our customers based on trust, transparency, and expertise. Many of our clients have been with us for years, and we've had the privilege of servicing multiple generations of families in our community.
               </p>
               <p className="text-lg text-gray-700">
-                Proud to be a locally-owned and operated business, deeply rooted in the community we serve. When you choose Amherstview Auto Service, you're choosing a team that truly cares about keeping you safe on the road.
+                Proud to be a locally-owned and operated business, deeply rooted in the community we serve. When you choose Amherstview Auto Service, you're choosing a team that truly cares about keeping you and your family safe on the road.
               </p>
             </div>
             <div className="rounded-lg overflow-hidden shadow-lg">
