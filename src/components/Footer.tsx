@@ -22,7 +22,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               <span className="text-[#DC143C]"> Auto</span>
             </h3>
             <p className="text-gray-300 mb-4">
-              Full-service auto repair shop serving Bath, Amherstview, Kingston and surrounding areas since 1983.
+              Full-service auto repair facility serving Bath, Amherstview, Kingston and surrounding areas since 1983.
             </p>
           </div>
 
