@@ -63,7 +63,7 @@ export default function HomePage({ onNavigate }: HomePageProps) {
                 <ThumbsUp className="text-white" size={32} />
               </div>
               <h3 className="font-bold text-lg mb-2">All Makes & Models</h3>
-              <p className="text-gray-600">Servicing every vehicle brand and type</p>
+              <p className="text-gray-600">Servicing every vehicle brand, all makes & models</p>
             </div>
           </div>
         </div>
