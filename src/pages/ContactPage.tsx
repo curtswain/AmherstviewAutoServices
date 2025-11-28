@@ -1,6 +1,5 @@
 import { MapPin, Phone, Clock, Mail, Send } from 'lucide-react';
 import { useState, FormEvent } from 'react';
-import { supabase } from '../lib/supabase';
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -16,18 +15,19 @@ export default function ContactPage() {
     e.preventDefault();
 
     try {
-      const { error } = await supabase
-        .from('contact_messages')
-        .insert({
-          name: formData.name,
-          email: formData.email,
-          phone: formData.phone,
-          vehicle_make_model: formData.vehicle,
-          message: formData.message,
-        });
+      const apiUrl = `${import.meta.env.VITE_SUPABASE_URL}/functions/v1/send-contact-email`;
 
-      if (error) {
-        throw error;
+      const response = await fetch(apiUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
+        },
+        body: JSON.stringify(formData),
+      });
+
+      if (!response.ok) {
+        throw new Error('Failed to send message');
       }
 
       setSubmitStatus('success');
