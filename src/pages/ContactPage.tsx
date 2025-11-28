@@ -22,7 +22,7 @@ export default function ContactPage() {
           name: formData.name,
           email: formData.email,
           phone: formData.phone || null,
-          vehicle: formData.vehicle || null,
+          vehicle_make_model: formData.vehicle || null,
           message: formData.message,
         });
 
