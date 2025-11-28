@@ -81,7 +81,7 @@ export default function Footer({ onNavigate }: FooterProps) {
         </div>
 
         <div className="border-t border-gray-600 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; {new Date().getFullYear()} Amherstview Auto. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Amherstview Auto. All rights reserved. Website Design by MDC Digital Solutions</p>
         </div>
       </div>
     </footer>
