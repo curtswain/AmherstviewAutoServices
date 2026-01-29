@@ -1,6 +1,6 @@
 import { MapPin, Phone, Clock } from 'lucide-react';
 
-type Page = 'home' | 'services' | 'about' | 'contact';
+type Page = 'home' | 'services' | 'about' | 'contact' | 'privacy';
 
 interface FooterProps {
   onNavigate: (page: Page) => void;
@@ -53,6 +53,13 @@ export default function Footer({ onNavigate }: FooterProps) {
               >
                 Contact Us
               </button>
+              <button
+  onClick={() => handleNavigate('privacy')}
+  className="block text-gray-300 hover:text-[#DC143C] transition-colors"
+>
+  Privacy Policy
+</button>
+
             </nav>
           </div>
 
