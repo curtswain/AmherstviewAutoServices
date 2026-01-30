@@ -187,6 +187,15 @@ export default function ContactPage() {
                     <a href="tel:613-386-7371" className="text-[#DC143C] hover:underline text-lg">
                       613-386-7371
                     </a>
+                    <div className="mt-2">
+  <a
+    href="mailto:contact@amherstviewauto.ca"
+    className="text-[#DC143C] hover:underline text-lg"
+  >
+    contact@amherstviewauto.ca
+  </a>
+</div>
+
                   </div>
                 </div>
 
