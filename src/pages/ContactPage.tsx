@@ -187,15 +187,25 @@ export default function ContactPage() {
                     <a href="tel:613-386-7371" className="text-[#DC143C] hover:underline text-lg">
                       613-386-7371
                     </a>
-                    <div className="mt-2">
-  <a
-    href="mailto:contact@amherstviewauto.ca"
-    className="text-[#DC143C] hover:underline text-lg"
-  >
-    contact@amherstviewauto.ca
-  </a>
+                    </div>
 </div>
+                 <div className="flex items-start space-x-4">
+  <div className="flex-shrink-0">
+    <div className="w-12 h-12 bg-[#DC143C] rounded-lg flex items-center justify-center">
+      <Mail className="text-white" size={24} />
+    </div>
+  </div>
 
+  <div>
+    <h3 className="font-bold text-lg mb-1">Email</h3>
+    <a
+      href="mailto:contact@amherstviewauto.ca"
+      className="text-[#DC143C] hover:underline text-lg"
+    >
+      contact@amherstviewauto.ca
+    </a>
+  </div>
+</div>
                   </div>
                 </div>
 
