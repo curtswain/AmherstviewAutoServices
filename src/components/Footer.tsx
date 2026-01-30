@@ -1,4 +1,4 @@
-import { MapPin, Phone, Clock } from 'lucide-react';
+import { MapPin, Phone, Clock, Mail } from 'lucide-react';
 
 type Page = 'home' | 'services' | 'about' | 'contact' | 'privacy';
 
@@ -76,6 +76,16 @@ export default function Footer({ onNavigate }: FooterProps) {
                   613-386-7371
                 </a>
               </div>
+              <div className="flex items-center space-x-2">
+  <Mail size={20} className="flex-shrink-0 text-[#DC143C]" />
+  <a
+    href="mailto:contact@amherstviewauto.ca"
+    className="hover:text-[#DC143C] transition-colors"
+  >
+    contact@amherstviewauto.ca
+  </a>
+</div>
+
               <div className="flex items-start space-x-2">
                 <Clock size={20} className="mt-1 flex-shrink-0 text-[#DC143C]" />
                 <div>
